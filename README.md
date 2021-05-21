@@ -7,7 +7,10 @@
 > :books: **Uma abordagem em java sobre um tema recorrente na ciência da computação : Algoritmos e Estrutura de Dados.**
 
 ## Menu / Ementa
-
+- Understanding Arrays Better / Entendendo melhor o que são arrays;
+- Reading data from arrays / Lendo dados a partir de arrays;
+- Search algorithms: understanding and implementing linear search / Algoritmos de busca: entendendo e implementando a busca linear;
+- Sorting algorithms: understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort;
 ## History / História
 - See [Commit changes]() for details.
 
