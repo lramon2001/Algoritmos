@@ -3,7 +3,7 @@ package com.company;
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 
-public class Main {
+public class BuscaLinear {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
