@@ -7,10 +7,15 @@
 > :books: **Uma abordagem em java sobre um tema recorrente na ciência da computação : Algoritmos e Estrutura de Dados.**
 
 ## Menu / Ementa
+### Algorithms / Algortimos
+#### Arrays / Vetores
 - Understanding Arrays Better / Entendendo melhor o que são arrays;
 - Reading data from arrays / Lendo dados a partir de arrays;
-- Search algorithms: understanding and implementing linear search / Algoritmos de busca: entendendo e implementando a busca linear;
-- Sorting algorithms: understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort;
+####  Sorting algorithms / Algoritmos de ordenção
+- Sorting algorithms: understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort.
+#### Search algoritms / Algoritmos de Busca
+- Understanding and implementing linear search / Algoritmos de busca: entendendo e implementando a busca linear;
+- Understanding and implementing binary search / Algoritmos de busca: entendendo e implementando a busca binária.
 ## History / História
 - See [Commit changes]() for details.
 
