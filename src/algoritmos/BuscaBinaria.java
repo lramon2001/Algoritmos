@@ -3,37 +3,26 @@ package algoritmos;
 import javax.swing.*;
 
 public class BuscaBinaria {
-    public static int[] numeros =new int[6];
 
-    public static void main (String args[]){
-      numeros = SelectionSort.lerVetores(numeros);
-      SelectionSort.ordenaVetor(numeros);
-      SelectionSort.mostraVetor(numeros,"Lista ordenada");
-      int alvo=Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o número a ser procurado: "));
-      buscaBinaria(numeros,alvo);
-      SelectionSort.mostraVetor(numeros,"Confira:");
-
-    }
-
-    public static int buscaBinaria(int[] array,int alvo){
-        int index=-1;
-        int inicio = 0;
-        int fim = array.length -1;
-        int meio;
-        while(inicio<=fim){
-            meio=(inicio+fim)/2;
-            if(alvo>numeros[meio]){
-                inicio=meio+1;
-            }
-            else if(alvo<numeros[meio]){
-                fim=meio-1;
-            }
-            else if(alvo==numeros[meio]){
-                index=meio;
-                JOptionPane.showMessageDialog(null,"O número procurado está na posição "+index+" do array");
+    public static int binarySearch(int[] array, int target) {
+        JOptionPane.showMessageDialog(null,"O programa vai executar uma busca binária.\n" +
+                "Se o valor desejado não for encontrado ele retornará -1");
+        int searched = -1;
+        int start = 0;
+        int end = array.length - 1;
+        int mid;
+        while (start <= end) {
+            mid = (start + end) / 2;
+            if (target > array[mid]) {
+                start = mid + 1;
+            } else if (target < array[mid]) {
+                end = mid - 1;
+            } else if (target == array[mid]) {
+                searched = mid;
+                JOptionPane.showMessageDialog(null, "O número procurado está na posição " + searched + " do array");
                 break;
             }
         }
-        return index;
+        return searched;
     }
 }
