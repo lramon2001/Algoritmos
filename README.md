@@ -12,7 +12,7 @@
 - Understanding Arrays Better / Entendendo melhor o que são arrays;
 - Reading data from arrays / Lendo dados a partir de arrays;
 ####  Sorting algorithms / Algoritmos de ordenção
-- Sorting algorithms: understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort.
+- Understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort.
 #### Search algoritms / Algoritmos de Busca
 - Understanding and implementing linear search / Algoritmos de busca: entendendo e implementando a busca linear;
 - Understanding and implementing binary search / Algoritmos de busca: entendendo e implementando a busca binária.
