@@ -7,8 +7,9 @@ public class SelectionSort {
 
     public static void main(String args[]) {
         lerVetores(numeros);
-        int[] ordenado = ordenaVetor(numeros);
-        mostraVetor(ordenado);
+        ordenaVetor(numeros);
+        mostraVetor(numeros);
+
     }
 
     public static int[] lerVetores(int[] array) {
@@ -28,20 +29,17 @@ public class SelectionSort {
         JOptionPane.showMessageDialog(null, output);
     }
 
-    public static int[] ordenaVetor(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            int posicaoMenor = i;
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[j] < array[posicaoMenor]) {
-                    posicaoMenor = j;
+    public static void ordenaVetor(int[] array) {
+        for(int i=0;i<array.length;i++){
+            int posMenor =i;
+            for(int j=i+1;j<array.length;j++){
+                if(array[j]<array[posMenor]){
+                    posMenor=j;
                 }
             }
-            int temp = array[posicaoMenor];
-            array[posicaoMenor] = array[i];
-            array[i] = temp;
-
-
+            int temp = array[i];
+            array[i]=array[posMenor];
+            array[posMenor]=temp;
         }
-        return array;
     }
     }
