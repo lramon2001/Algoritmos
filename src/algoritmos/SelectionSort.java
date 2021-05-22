@@ -3,7 +3,7 @@ package algoritmos;
 import javax.swing.*;
 
 public class SelectionSort {
-    static int[] numeros = new int[6];
+    static int[] numeros = new int[7];
 
     public static void main(String args[]) {
         lerVetores(numeros);
