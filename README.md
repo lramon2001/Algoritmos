@@ -19,7 +19,7 @@
 ## History / História
 - See [Commit changes]() for details.
 
-> **Consulte [Mudanças de commit]() para obter detalhes.**
+> **Consulte [Mudanças de commit](https://github.com/lramon2001/Algoritmos/pulse) para obter detalhes.**
 
 ## License / Licença
 
