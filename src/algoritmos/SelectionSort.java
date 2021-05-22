@@ -7,8 +7,9 @@ public class SelectionSort {
 
     public static void main(String args[]) {
         lerVetores(numeros);
+        mostraVetor(numeros,"Vetor desordenado: ");
         ordenaVetor(numeros);
-        mostraVetor(numeros);
+        mostraVetor(numeros,"Vetor ordenado: ");
 
     }
 
@@ -20,12 +21,12 @@ public class SelectionSort {
         return array;
     }
 
-    public static void mostraVetor(int[] array) {
+    public static void mostraVetor(int[] array,String message) {
         StringBuilder lista = new StringBuilder();
         for (int i = 0; i < array.length; i++) {
             lista.append(" " + array[i]);
         }
-        String output = lista.toString();
+        String output =message+lista.toString();
         JOptionPane.showMessageDialog(null, output);
     }
 
