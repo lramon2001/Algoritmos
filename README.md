@@ -21,21 +21,19 @@
 - Understanding Bachmann – Landau (Big-O) notation / Entendendo a notação de Bachmann–Landau (O-grande).
 ## Selection Sort / Ordenação por Seleção
 ```
-A ordenação por seleção (do inglês, selection sort) é um algoritmo de ordenação baseado em se passar sempre
-o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo
-menor valor para a segunda posição,e assim é feito sucessivamente com os n-1 elementos restantes, até os 
-últimos dois elementos.
+A ordenação por seleção é um algoritmo de ordenação baseado em se passar sempre o menor
+valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois
+o de segundo menor valor para segunda posição, e assim é feito sucessivamente com os n-1
+elementos restantes, até os últimos dois elementos.
 ```
 ![Selection Sort](https://github.com/lramon2001/Algoritmos/blob/main/Selection-Sort-Animation.gif)
 ## Linear Search / Busca Linear
 ```
-Na área de informática, ou Ciência da Computação, costuma-se usar o termo busca linear (ou busca sequencial)
-para expressar um tipo de pesquisa em vetores ou listas de modo sequencial, elemento por elemento, de modo que 
-a função do tempo em relação ao número de elementos é linear, ou seja, cresce proporcionalmente. Num vetor 
-ordenado, essa não é a pesquisa mais eficiente, a pesquisa (ou busca) binária, por exemplo, é um tipo de 
-pesquisa com o gráfico de tempo logarítmo.
-
-
+Na área de informática, ou Ciência da Computação, costuma-se usar o termo buscar linear 
+(ou busca sequencial) para expressar um tipo de pesquisa em vetores ou listas de modo se-
+quencial, elemento por elemento, de modo que ordenado, essa não é a pesquisa mais efici-
+ente, a pesquisa (ou busca) binária, por exemplo, é um tipo de pesquisa com o gráfico de 
+tempo logaritmo.
 ```
 ![Linear Search](https://github.com/lramon2001/Algoritmos/blob/main/linear_search.gif)
 ## Binary Search / Busca Binária
