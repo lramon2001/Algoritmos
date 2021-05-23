@@ -27,7 +27,7 @@ posição,e assim é feito sucessivamente com os n-1 elementos restantes, até o
 
 
 ```
-![Selection Sort]
+![Selection Sort](https://github.com/lramon2001/Algoritmos/blob/main/Selection-Sort-Animation.gif)
 ## Linear Search / Busca Linear
 ```
 Na área de informática, ou Ciência da Computação, costuma-se usar o termo busca linear (ou busca sequencial)
@@ -38,6 +38,7 @@ pesquisa com o gráfico de tempo logarítmo.
 
 
 ```
+![Linear Search](https://github.com/lramon2001/Algoritmos/blob/main/linear_search.gif)
 ## Binary Search / Busca Binária
 ```
 A pesquisa ou busca binária (em inglês binary search algorithm ou binary chop) é um algoritmo de busca em 
@@ -48,6 +49,7 @@ elemento do meio vier antes do elemento buscado, então a busca continua na meta
 se o elemento do meio vier depois da chave, a busca continua na metade anterior do vetor.
 
 ```
+![Binary Search](https://github.com/lramon2001/Algoritmos/blob/main/binary-search.gif)
 ## History / História
 - See [Commit changes](https://github.com/lramon2001/Algoritmos/pulse) for details.
 
