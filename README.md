@@ -30,8 +30,8 @@ elementos restantes, até os últimos dois elementos.
 ## Linear Search / Busca Linear
 ```
 Na área de informática, ou Ciência da Computação, costuma-se usar o termo buscar linear 
-(ou busca sequencial) para expressar um tipo de pesquisa em vetores ou listas de modo se-
-quencial, elemento por elemento, de modo que ordenado, essa não é a pesquisa mais efici-
+(ou busca sequencial) para expressar um tipo de pesquisa em vetores ou listas de modo se
+quencial, elemento por elemento, de modo que ordenado, essa não é a pesquisa mais efici
 ente, a pesquisa (ou busca) binária, por exemplo, é um tipo de pesquisa com o gráfico de 
 tempo logaritmo.
 ```
