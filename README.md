@@ -21,9 +21,9 @@
 - Understanding Bachmann – Landau (Big-O) notation / Entendendo a notação de Bachmann–Landau (O-grande).
 ## Selection Sort / Ordenação por Seleção
 ```
-A ordenação por seleção (do inglês, selection sort) é um algoritmo de ordenação baseado em se passar sempre
+A ordenação  por seleção  (do inglês, selection sort) é  um algoritmo de ordenação baseado em se passar sempre
 o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo
-menor valor para a segunda posição, e assim é feito sucessivamente com os {\displaystyle n-1}n-1 elementos 
+menor valor para a segunda posição, e assim é feito sucessivamente com os n-1 elementos 
 restantes, até os últimos dois elementos.
 ```
 ![Selection Sort](https://github.com/lramon2001/Algoritmos/blob/main/Selection-Sort-Animation.gif)
