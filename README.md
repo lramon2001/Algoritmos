@@ -22,8 +22,10 @@
 ## Selection Sort / Ordenação por Seleção
 ```
 A ordenação por seleção (do inglês, selection sort) é um algoritmo de ordenação baseado em se passar sempre o menor valor do
-vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda 
+vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda
 posição,e assim é feito sucessivamente com os n-1 elementos restantes, até os últimos dois elementos.
+
+
 ```
 ## Linear Search / Busca Linear
 ```
@@ -32,6 +34,8 @@ para expressar um tipo de pesquisa em vetores ou listas de modo sequencial, elem
 a função do tempo em relação ao número de elementos é linear, ou seja, cresce proporcionalmente. Num vetor 
 ordenado, essa não é a pesquisa mais eficiente, a pesquisa (ou busca) binária, por exemplo, é um tipo de 
 pesquisa com o gráfico de tempo logarítmo.
+
+
 ```
 ## Binary Search / Busca Binária
 ```
@@ -41,6 +45,7 @@ e realiza sucessivas divisões do espaço de busca comparando o elemento buscado
 meio do vetor. Se o elemento do meio do vetor for a chave, a busca termina com sucesso. Caso contrário, se o 
 elemento do meio vier antes do elemento buscado, então a busca continua na metade posterior do vetor. E finalmente, 
 se o elemento do meio vier depois da chave, a busca continua na metade anterior do vetor.
+
 ```
 ## History / História
 - See [Commit changes](https://github.com/lramon2001/Algoritmos/pulse) for details.
