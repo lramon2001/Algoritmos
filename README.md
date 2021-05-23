@@ -27,6 +27,7 @@ posição,e assim é feito sucessivamente com os n-1 elementos restantes, até o
 
 
 ```
+![Selection Sort]
 ## Linear Search / Busca Linear
 ```
 Na área de informática, ou Ciência da Computação, costuma-se usar o termo busca linear (ou busca sequencial)
