@@ -54,4 +54,4 @@ do meio vier depois da chave, a busca continua na metade anterior do vetor.
 
 ## License / Licença
 
-[MIT License](https://github.com/lramon2001/INMTE/blob/main/LICENSE) © [Lucas Ramon](https://github.com/lramon2001)
+[MIT License](https://github.com/lramon2001/Algoritmos/blob/main/LICENSE) © [Lucas Ramon](https://github.com/lramon2001)
